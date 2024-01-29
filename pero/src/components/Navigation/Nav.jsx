@@ -39,14 +39,14 @@ function Nav(props) {
                     </Link>
                 </div>
 
-              
+
 
             </div>
 
 
             <div className="travel-text">
                 <h2>ПУТЕШЕСТВУЙ</h2>
-                <span className='vmeste' style={}>вместе с</span>
+                <span className='vmeste'>вместе с</span>
                 <h1>Pero travel</h1>
             </div>
 
@@ -68,9 +68,9 @@ function Nav(props) {
 
 
             <div className="second-images">
-                    <img className='img2' src={Img2} alt="" />
-                    <img className='img3' src={Img3} alt="" />
-                </div>
+                <img className='img2' src={Img2} alt="" />
+                <img className='img3' src={Img3} alt="" />
+            </div>
         </div>
     );
 }
