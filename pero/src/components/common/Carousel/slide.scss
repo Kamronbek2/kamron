@@ -3,27 +3,50 @@
      top: 1000px;
      margin: 80px;
 
-     h2{
-        position: absolute;
-        bottom: 350px;
-        left: 80px;
-        font-size: 30px;
-    }
+     h2 {
+         position: absolute;
+         bottom: 350px;
+         left: 80px;
+         font-size: 30px;
+     }
 
      .main-card {
-         display: flex;
+         width: 740px;
+         height: 322px;
+         flex-shrink: 0;
+
+         
+
+         .url {
+             width: 197px;
+             height: 322.484px;
+             flex-shrink: 0;
+
+             color: var(--yellow, #FFC700);
+             font-family: "Marko One";
+             font-size: 500px;
+             font-style: normal;
+             font-weight: 400;
+             line-height: normal;
+             transform: translate(0, -70%) rotate(16.663deg);
+             opacity: 0.4;
+
+
+         }
      }
 
      .card {
-         background-color: rgb(138, 138, 138, 0.3);
+         background-color: rgb(128, 128, 128, 0.5);
          margin-left: 10px;
          padding: 30px;
          border-radius: 15px;
          display: flex;
          flex-direction: row;
-
-        .text-slides{
-            margin-left: 15px;
-        }
+         height: 440px;
+         border-radius: 8%;
+        z-index: 0;
+         .text-slides {
+             margin-left: 15px;
+         }
      }
  }

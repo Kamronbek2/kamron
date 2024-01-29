@@ -68,7 +68,6 @@ function Footer() {
                     <div className="twodiv">
                         <Link>
                             <div>
-                                <img src={Icon4} alt="" />
                                 <span>office@perotravel.ru</span>
                             </div>
                         </Link>

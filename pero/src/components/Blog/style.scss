@@ -13,7 +13,7 @@
    grid-template-columns: 1fr 1fr;
    padding: 20px 40px;
 
-
+   
 
    .menu {
       display: flex;
@@ -22,13 +22,13 @@
 
       .nav-links {
          margin-left: 30%;
-
+         
          a,
          button {
             @extend %link;
             text-decoration: none;
             cursor: pointer;
-
+            
          }
       }
    }
